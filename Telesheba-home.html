@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telesheba Home</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body class="container">
+    <header
+        class="w-full px-10 lg:px-20 gap-8 flex flex-row-reverse md:flex-row justify-between items-center relative z-10 bg-white border border-b-2 border-x-0 border-t-0">
+        <a href=""><img class="w-16 md:w-20 lg:w-28 " src="img/yf01.png" alt=""></a>
+        <nav class="hidden w-full md:flex mx-auto justify-around items-center">
+            <li class="navlink-active"><a class="nav" href="./Telesheba-home.html">Home</a></li>
+            <li><a class="nav" href="./About_us.html">About Us</a></li>
+            <li>
+                <div class="dropdown dropdown-end">
+                    <label class="nav" tabindex="0" class="btn btn-ghost rounded-btn">Services <i
+                        class="ml-auto fa-solid fa-chevron-down text-sm"></i></label>
+                    <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-64 mt-4">
+                        <li><a class="nav" href="./Services.html">Doctor's Appointment</a></li>
+                        <li><a class="nav" href="">Ambulance Booking</a></li>
+                        <li><a class="nav" href="">Blood Donation</a></li>
+                        <li><a class="nav" href="">Pregnancy Care</a></li>
+                        <li><a class="nav" href="">Nurse Appointment</a></li>
+                        <li><a class="nav" href="">Foreign Doctor Appointment</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a class="nav" href="#">Packages</a></li>
+            <li><a class="nav" href="#">Contact Us</a></li>
+            <li><a class="" href="./JoinUs.html"><button class="btn border px-4 py-1 bg-[#17A500] text-white">Join Us</button></a></li>
+        </nav>
+        <div class="dropdown absolute left-4">
+            <label tabindex="0" class="btn btn-ghost md:hidden flex justify-end">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li class="navlink-active"><a class="nav" href="./Telesheba-home.html">Home</a></li>
+                <li><a class="nav" href="./About_us.html">About Us</a></li>
+                <li>
+                    <div class="dropdown dropdown-end">
+                        <label class="nav" tabindex="0" class="btn btn-ghost rounded-btn">Services <i
+                            class="ml-auto fa-solid fa-chevron-down text-sm"></i></label>
+                        <ul tabindex="0" class="menu dropdown-content z-[1] p-2 shadow bg-base-100 rounded-box w-64 mt-4">
+                            <li><a class="nav" href="./Services.html">Doctor's Appointment</a></li>
+                            <li><a class="nav" href="">Ambulance Booking</a></li>
+                            <li><a class="nav" href="">Blood Donation</a></li>
+                            <li><a class="nav" href="">Pregnancy Care</a></li>
+                            <li><a class="nav" href="">Nurse Appointment</a></li>
+                            <li><a class="nav" href="">Foreign Doctor Appointment</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a class="nav" href="#">Packages</a></li>
+                <li><a class="nav" href="">Contact Us</a></li>
+                <li><a class="" href="./JoinUs.html"><button class="btn border px-4 py-1 bg-[#17A500] text-white">Join Us</button></a></li>
+            </ul>
+        </div>
+        <!-- <div class="navbar bg-base-100">
+            <div class="navbar-start">
+                <img src="img/yf01.png" alt="">
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a class="nav" href="#Telesheba-home.html">Home</a></li>
+                    <li><a class="nav" href="#">About Us</a></li>
+                    <li tabindex="0">
+                        <details>
+                            <summary>Services</summary>
+                            <ul class="p-2">
+                                <li><a>Service 1</a></li>
+                                <li><a>Service 2</a></li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li><a class="nav" href="#">Packages</a></li>
+                    <li><a class="nav" href="#">Contact Us</a></li>
+                    <li><a class="btn">Join Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                
+                <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a class="nav" href="#Telesheba-home.html">Home</a></li>
+                        <li><a class="nav" href="#">About Us</a></li>
+                        <li>
+                            <a class="nav" href="#">Services</a>
+                            <ul class="p-2">
+                                <li><a>Service 1</a></li>
+                                <li><a>Service 2</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="nav" href="#">Packages</a></li>
+                        <li><a class="nav" href="#">Contact Us</a></li>
+                        <li><a class="nav">Join Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+
+    </header>
+    <section class="mb-24 md:mb-28 lg:mb-44 px-4">
+        <div class="flex gap-8">
+            <div class="flex flex-col w-1/2 px-4 pt-4 md:pt-6 lg:pt-14 lg:px-14">
+                <small class="text-base py-2 text-[#F0BA50]">
+                    All in one
+                </small>
+                <h1 class="text-lg  md:text-3xl lg:text-4xl xl:text-5xl font-semibold md:w-[350px] lg:w-[450px]">Get
+                    Exclusive
+                    Services <span class="text-[#F0BA50]">Teleported</span> at Your Place</h1>
+                <button
+                    class="border py-1 lg:py-4 my-6 bg-[#991B1e] text-sm md:text-base px-1 lg:px-4 text-white w-fit rounded font-bold md:w-2/3 lg:w-3/5 xl:w-2/5">Download
+                    Teleseba App</button>
+                <button
+                    class="border py-1 lg:py-4 bg-[#17A500] text-white text-sm rounded font-bold px-1 lg:px-4 md:text-base w-fit md:w-2/3 lg:w-3/5 xl:w-2/5">Be
+                    One of Us Now</button>
+            </div>
+            <div class="w-1/2 flex justify-center">
+                <img class="absolute md:top-7 lg:top-0 w-[250px] sm:w-[250px] md:w-[300px] lg:w-[470px] xl:w-[588px]"
+                    src="img/Group 8.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="px-4">
+        <div class="text-center">
+            <p class="text-sm md:text-base text-[#F0BA50] mb-6">What We Do</p>
+            <h1 class="text-3xl font-semibold mb-6">About Us</h1>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur. Sit eget lectus aenean purus nibh. Nulla
+                lorem adipiscing amet nisl nec cras commodo integer proin. Eu aliquam porttitor semper lectus.
+                Scelerisque tincidunt praesent odio diam vitae in massa ullamcorper platea. Et suspendisse senectus
+                varius volutpat sed. Lacus auctor ut in massa orci. Viverra malesuada neque netus hac erat vitae magna
+                massa. Sociis porttitor orci dignissim etiam mauris urna. Blandit libero blandit eget volutpat magna sit
+                ultricies in risus. Ut vitae proin consequat elit. Adipiscing nulla semper semper quis volutpat nunc.
+                Sem semper dui arcu libero viverra.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 my-20 justify-items-center gap-4">
+            <div
+                class="flex justify-center items-center gap-4 border-2 rounded-2xl w-[250px] md:w-[300px] lg:w-[371px] ">
+                <img class="w-1/2" src="img/about/11116016_415 2.png" alt="">
+                <p class="font-bold text-base md:text-xl lg:text-2xl">Doctor's Appontment</p>
+            </div>
+            <div
+                class="flex justify-center items-center gap-4 border-2 rounded-2xl w-[250px] md:w-[300px] lg:w-[371px]">
+                <img class="w-1/2" src="img/about/11116016_415 3.png" alt="">
+                <p class="font-bold text-base md:text-xl lg:text-2xl">Ambulance Booking</p>
+            </div>
+            <div
+                class="flex justify-center items-center gap-4 border-2 rounded-2xl w-[250px] md:w-[300px] lg:w-[371px]">
+                <img class="w-1/2 rounded-2xl" class="rounded-2xl rounded-ee-[90px]"
+                    src="img/about/11116016_415 3(4).png" alt="">
+                <p class="font-bold text-base md:text-xl lg:text-2xl">Blood Donation</p>
+            </div>
+            <div
+                class="flex justify-center items-center gap-4 border-2 rounded-2xl w-[250px] md:w-[300px] lg:w-[371px]">
+                <img class="w-1/2" src="img/about/11116016_415 3 (1).png" alt="">
+                <p class="font-bold text-base md:text-xl lg:text-2xl">Pregnancy Care</p>
+            </div>
+            <div
+                class="flex justify-center items-center gap-4 border-2 rounded-2xl w-[250px] md:w-[300px] lg:w-[371px]">
+                <img class="w-1/2" src="img/about/11116016_415 3 (2).png" alt="">
+                <p class="font-bold text-base md:text-xl lg:text-2xl">Nurse Appointment</p>
+            </div>
+            <div
+                class="flex justify-center items-center gap-4 border-2 rounded-2xl w-[250px] md:w-[300px] lg:w-[371px]">
+                <img class="w-1/2" src="img/about/11116016_415 3 (3).png" alt="">
+                <p class="font-bold text-base md:text-xl lg:text-2xl">Foreign Doctor Appontment</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-start md:justify-items-center p-10 bg-neutral text-neutral-content gap-8">
+            <div class="hidden lg:flex flex-col ">
+                <a class="link link-hover">Home</a>
+                <a class="link link-hover">About Us</a>
+                <a class="link link-hover">Services</a>
+                <a class="link link-hover">News</a>
+                <a class="link link-hover">Contact Us</a>
+            </div>
+            <div class="">
+                <span class="footer-title">Contact Us</span>
+                <hr class="w-full my-2 border border-gray-100 ">
+                <div class="">
+                    <div class="flex items-center justify-start gap-4">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>1/b/2 Stockland street, Dhaka-1212</p>
+                    </div>
+                    <div class="flex items-center justify-start gap-4">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>Email: telesheba@gmail.com</p>
+                    </div>
+                    <div class="flex items-center justify-start gap-4">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>Helpline: 01700000000</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <span class="footer-title">Download Our Mobile App</span>
+                <a href="https://play.google.com/store/games?device=phone" class="link link-hover"><img class="w-1/3 md:w-2/3" src="img/Group 110.png" alt=""></a>
+                <div class="flex gap-4 mt-4">
+                    <img class="w-7 h-7" src="img/icon/google-icon-logo-png-transparent 1.png" alt="">
+                    <img class="w-7 h-7" src="img/icon/Facebook_f_logo_(2019) 1.png" alt="">
+                    <img  class="w-7 h-7"src="img/icon/294709_circle_twitter_icon 1.png" alt="">
+                    <img  class="w-7 h-7"src="img/icon/YouTube_full-color_icon_(2017) 1.png" alt="">
+                    <img  class="w-7 h-7"src="img/icon/LinkedIn_icon 1.png" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <div class="flex lg:hidden gap-4 md:gap-8 w-full bg-neutral text-neutral-content py-4 justify-center list-none">
+            <li><a class="link link-hover">Home</a></li>
+            <li><a class="link link-hover">About Us</a></li>
+            <li><a class="link link-hover">Services</a></li>
+            <li><a class="link link-hover">News</a></li>
+            <li><a class="link link-hover">Contact Us</a></li>
+        </div>
+
+        <div class="bg-black text-center text-white py-4">
+            <p class="text-xs md:text-sm">All copyrights reserved by codestudio. For any help, contact us: 017xxxxxxxx, 018xxxxxxxx</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+    @apply relative hover:text-green-400 tracking-[1px]
+}
+
+.nav::after {
+    @apply content-[''] bg-green-400 h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+}
+
+.nav:hover::after {
+    @apply w-[100%]
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+nav>li {
+    list-style: none;
+}
+.navlink-active {
+    color: rgb(110, 194, 110);
+    border-bottom: 2px solid rgb(110, 194, 110);
+}
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.btn-file input[type="file"] {
+    cursor: pointer;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transform: scale(3);
+    opacity: 0;
+}
